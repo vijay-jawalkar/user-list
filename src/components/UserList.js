@@ -13,7 +13,7 @@ function UserList() {
       setUsers(json);
     }
     fetchData();
-  });
+  }, []);
   return (
     <div className="flex flex-wrap justify-center items-center gap-4">
       {users &&
